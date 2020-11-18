@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.bi-list{
+    margin-left: 20px;
+}
+
+.brand_name{
+    font-size: 15px;
+    font-style: bold;
+    color: gray;
+}
+.search_input{
+    font-size: 10px;
+    color: lightgray;
+    margin-left: 15px;
+}
+
+.body_flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.side_bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 10%;
+    margin-top: 30px;
+    color: gray;
+
+}
+
+.sale_card{
+    margin: 50px;
+    width: 100px;
+    height: 150px;
+    text-align: center;
+    background-color: pink;
+    border-radius: 5px;
+}
+
+.body_content{
+    flex: 90%;
+    background-color: lightgray;
+    height: 450px;
+}
+
+.bi-search{
+    margin-left: 15px;
+}
+
+.bi-envelope{
+    margin-left: 100px;
+    color: gray;
+}
+
+.bi-bell{
+    margin-left: 20px;
+    color: gray;
+}
+
+.bi-power{
+    margin-left: 20px;
+    color: gray;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.store_name{
+    font-size: 8px;
+    margin-left: 15px;
+}
+
+.logo{
+    width: 50px;
+    height: 20px;
+}
